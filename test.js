@@ -6,7 +6,7 @@ window.onload = function() {
     x.parentNode.removeChild(x);
     // 幹掉輸入框跟按鈕以免人重複操作
 
-    let animalresult = [`隻豬`, `隻狗`, `隻貓`];
+    let animalresult = [`隻豬`, `隻狗`, `隻貓`, `隻鱷魚`, `隻皮卡丘`];
 
     let randomIndex = Math.floor(animalresult.length * Math.random());
     let say = animalresult[randomIndex];
