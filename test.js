@@ -7,9 +7,6 @@ window.onload = function() {
 
     const animalresult = ["隻豬", "隻狗", "隻貓", "隻鱷魚", "隻皮卡丘"];
 
-    function getRandomInt(min, max){
-      return Math.floor(Math.random() * (max - min)) + min;
-    }
     let randomIndex = getRandomInt(0, animalresult.length);
     let say = animalresult[randomIndex];
   
@@ -18,4 +15,8 @@ window.onload = function() {
     let div = document.getElementById("animal");
     div.appendChild(p);
   };
+
+  function getRandomInt(min, max){
+    return Math.floor(Math.random() * (max - min)) + min;
+  }
 };
